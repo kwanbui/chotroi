@@ -1,6 +1,6 @@
 #fixNav{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #f5f0e1;
     display: block;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
@@ -49,14 +49,14 @@
     float: none; /*Bỏ float cho li cấp thứ 2*/
   }
   /* Hover cho submenu */
-  #fixNav ul li:hover {
+  /* #fixNav ul li:hover {
     /* Hover thì li sẽ đổi màu*/
     border: 2px solid black;
   }
   #fixNav ul li:hover ul{
     /*Display ra submenu*/
     display: block;
-  }
+  } */
   /*Không copy cái này, dùng tăng padding top bottom để demo cuộn*/
   p{
     padding-top: 80px;
